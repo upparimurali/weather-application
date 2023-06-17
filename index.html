@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App - Easy Tutorials</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="./index.js"></script>
+    </head>
+    <body>
+        <div class="card">
+
+            <div class="search">
+                <input type="text" class="search_input" placeholder="enter city name" spellcheck="false"> 
+                <button class="search_button"> <i class="fa fa-search icon"></i></button>
+            </div> 
+            <div class="error">
+             <p>Invalid city name </p>
+            </div>
+
+            <div class="weather">
+                <img src="./assets/clouds.png" class="rain_icon"/>
+                <h1 class="temp">22°c</h1>
+                <h2 class="city">Hyderabad</h2>
+                <div class="details">
+                    <div class="col">
+                        <img src="https://img.icons8.com/?size=512&id=fCTn9BGBnyL4&format=png" class="humidity_icon"/>
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p class="text">Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="https://img.icons8.com/?size=512&id=Iq44vinYjVEW&format=png" class="wind_icon"/>
+                        <div>
+                            <p class="wind">15 km/h</p>
+                            <p class="text">Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
